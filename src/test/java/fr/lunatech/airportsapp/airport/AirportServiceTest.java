@@ -19,7 +19,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
 
-public class AirportsTest {
+public class AirportServiceTest {
 
 	private AirportService airportsService = new AirportService();
 
