@@ -14,7 +14,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.util.function.Tuple2;
 
-public class AirportsService {
+public class AirportService {
 
 	private static final String RUNWAYS_CSV = "./runways.csv";
 	private static final String COUNTRIES_CSV = "./countries.csv";

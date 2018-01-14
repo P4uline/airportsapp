@@ -12,7 +12,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import fr.lunatech.airportsapp.airport.Airport;
-import fr.lunatech.airportsapp.airport.AirportsService;
+import fr.lunatech.airportsapp.airport.AirportService;
 import fr.lunatech.airportsapp.country.Country;
 import fr.lunatech.airportsapp.runway.Runway;
 import reactor.core.publisher.Flux;
@@ -21,7 +21,7 @@ import reactor.test.StepVerifier;
 
 public class AirportsTest {
 
-	private AirportsService airportsService = new AirportsService();
+	private AirportService airportsService = new AirportService();
 
 	@Test
 	public void should_get_airports_flux() {
